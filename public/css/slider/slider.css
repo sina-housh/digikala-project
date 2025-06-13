@@ -1,0 +1,111 @@
+.slider {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  .slider__prodact {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    max-width: 1900px;
+    padding-right: 16px;
+    position: relative;
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .slider__prodact__a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+        background-color: aqua;
+        .slider__prodact__item {
+          display: flex;
+          object-fit: cover;
+          .slider__prodact__item__img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-pagination-bullet{
+      width: 4px;
+      height: 4px;
+      background-color: whitesmoke;
+    }
+    .swiper-pagination-bullet-active{
+      width: 15px;
+      height: 4px;
+      transition: 300ms;
+      border-radius: 16px;
+    }
+    .swiper-pagination-bulle:active{
+      width: 12px;
+      height: 4px;
+      border-radius: 8px;
+    }
+    .swiper-button-next{
+      display: flex;
+      opacity: 0;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      background-color: #fff;
+      font-size: 12px;
+      border-radius: 50%;
+      border: 1px solid #c0c2c5;
+      position: absolute;
+      right: 90px;
+      top: 350px;
+      transition: 300ms;
+      
+    }
+    .swiper-button-prev{
+      width: 40px;
+      height: 40px;
+      display: flex;
+      opacity: 0;
+      font-size: 24px;
+      background-color: #fff;
+      border-radius: 50%;
+      border: 1px solid #c0c2c5;
+      position: absolute;
+      right: 40px;
+      top: 350px;
+      transition: 300ms;
+      
+    }
+    .swiper-button-prev::after{
+      content: url(../../svg/slider/slider-1.svg);
+      font-size: 14px;
+    }
+    .swiper-button-next::after{
+      content: url(../../svg/slider/slider-2.svg);
+      font-size: 14px;
+    }
+     &:hover .swiper-button-prev , &:hover .swiper-button-next{
+      opacity: 1;
+    }
+  
+  }
+
+}

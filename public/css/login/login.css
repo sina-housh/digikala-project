@@ -1,0 +1,102 @@
+.boody {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .border_login {
+    width: 400px;
+    height: 450px;
+    padding: 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    .border__login__header {
+      width: 340px;
+      height: 70px;
+      margin: 0 0 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .border__login__header__img {
+        width: 100px;
+        height: 70px;
+      }
+    }
+    .border__login__font {
+      width: 334px;
+      height: 39px;
+      margin: 16px 0 0 0;
+      .border__login__font__h2 {
+        font-size: 19px;
+        font-family: var(--font-family);
+        color: #0c0c0c;
+      }
+    }
+    .border__login__font__2 {
+      width: 334px;
+      height: 26px;
+      margin: 16px 0 0 0;
+      .border__login__font__h3 {
+        font-size: 12px;
+        font-family: var(--font-family);
+        color: var(--color-font);
+      }
+    }
+    .border__login__font__3 {
+      width: 334px;
+      height: 26px;
+      margin: 0 0 16px;
+      .border__login__font__h3 {
+        font-size: 12px;
+        font-family: var(--font-family);
+        color: var(--color-font);
+      }
+    }
+    .border__login__serch {
+      width: 338px;
+      height: 48px;
+      .border__login__serch__input {
+        width: 334px;
+        height: 48px;
+        border-radius: 8px;
+        border-color: var(--color);
+      }
+    }
+    .border__login__btm {
+      width: 334px;
+      height: 48px;
+
+      .border__login__btm__a {
+        display: flex;
+        width: 338px;
+        height: 48px;
+        margin: 32px 0 0;
+        padding: 12px 16px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: whitesmoke;
+        background-color: var(--color);
+        font-family: var(--font-family);
+      }
+    }
+    .border__login__foter {
+      width: 334px;
+      height: 23px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 16px 0 0;
+      .border__login__foter__h4 {
+        font-size: 11px;
+        font-family: var(--font-family);
+        color: var(--color-font);
+        .header__a {
+          color: var(--color-element);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

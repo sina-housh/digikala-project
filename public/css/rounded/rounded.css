@@ -1,0 +1,26 @@
+.rounded{
+    width: fit-content;
+    height: 52px;
+    background-color: #029a49;
+    color: #fff;
+    padding: 10px 12px;
+    position: fixed;
+    z-index: 9999;
+    bottom: 32px;
+    left: 16px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+    cursor: pointer;
+    .rounded__span{
+        font-size: 15px;
+        color: #fff;
+        font-family: var(--font-family);
+    }
+    .rounded__full__img{
+        width: 28px;
+        height: 60px;
+    }
+}

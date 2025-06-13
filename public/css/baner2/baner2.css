@@ -1,0 +1,31 @@
+.baner2 {
+  width: 100%;
+  height: 245px;
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  .baner2__wraper {
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    .baner2__wraper__baner {
+      width: 659px;
+      height: 245px;
+      .baner2__wraper__baner__full {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .baner2__wraper__baner__full__img {
+          width: 100%;
+          height: 100%;
+          border-radius: 20px;
+          display: flex;
+        }
+      }
+    }
+  }
+}

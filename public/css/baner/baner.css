@@ -1,0 +1,32 @@
+.baner{
+    width: 100%;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .baner__wraper{
+        width: 100%;
+        height: 100%;
+        max-width: 1400px;
+        display: flex;
+        column-gap: 10px;
+        padding: 0 16px;
+        .baner__wraper__a{
+            display: flex;
+            width: 25%;
+            height: 100%;
+            .baner__wraper__a__item{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                border-radius: 18px;
+                .baner__wraper__a__item__img{
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 18px;
+                }
+            }
+        }
+    }
+}

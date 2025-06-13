@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Iran;
+  src: url(../font/fonts/IRANYekanWeb.eot);
+  src: url(../font/fonts/IRANYekanWeb.ttf);
+  src: url(../font/fonts/IRANYekanWeb.woff);
+  src: url(../font/fonts/IRANYekanWeb.woff2);
+}
+.width {
+  width: 100%;
+  max-width: 1336px;
+  padding: 0 16px;
+}
+.mx-auto {
+  margin: 0 438px;
+  padding: 0 16px;
+}
+:root {
+  --header-color-font: #62666d;
+  --color: #ef4056;
+  --font-family: iran;
+  --font-size: 11px;
+  --font-size-2: 12px;
+  --border-color: #e0e0e2;
+  --color-element: #008eb2;
+  --color-font: #3f4064;
+}
+:root {
+  --gold-color: #ffd08f;
+  --bacgrand-color: #01494b;
+  --login-digi: #e6123d;
+  --box-font: #01494b;
+  --color-2: #e5eceb;
+  --text-color: #01494b;
+}

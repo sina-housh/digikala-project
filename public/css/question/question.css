@@ -1,0 +1,84 @@
+.question {
+  width: 100%;
+  height: 303px;
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+  margin-top: 20px;
+  .question__wraper {
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    .question__wraper__titel {
+      width: 100%;
+      height: 65px;
+      padding: 16px 20px;
+      display: flex;
+      column-gap: 950px;
+      align-items: center;
+      .question__wraper__titel__text {
+        font-size: 16px;
+        font-family: var(--font-family);
+        color: #0c0c0c;
+        display: flex;
+        font-weight: bold;
+      }
+      .question__wraper__titel__a {
+        display: flex;
+        text-decoration: none;
+        justify-content: flex-end;
+        column-gap: 3px;
+        .question__wraper__titel__a__span {
+          font-size: 12px;
+          font-family: var(--font-family);
+          color: #19bfd3;
+        }
+        .question__wraper__titel__a__img {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+    .question__wraper__item {
+      width: 100%;
+      height: 120px;
+      display: flex;
+      column-gap: 5px;
+      .question__wraper__item__prodact {
+        width: 25%;
+        height: 238px;
+        border-radius: 12px;
+        border: 1px solid #e0e0e2;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .question__wraper__item__prodact__full {
+          width: 100%;
+          height: 186px;
+          .question__wraper__item__prodact__full__img{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            object-fit: cover;
+            border-radius: 12px;
+          }
+        }
+        .question__wraper__item__prodact__text {
+          width: 100%;
+          height: 26px;
+          padding: 0 16px;
+          display: flex;
+          align-items: center;
+          margin: 8px 0 12px;
+          .question__wraper__item__prodact__text__span {
+            font-size: 12px;
+            font-family: var(--font-family);
+            color: #0c0c0c;
+          }
+        }
+      }
+    }
+  }
+}
